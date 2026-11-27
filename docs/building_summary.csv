@@ -1,0 +1,7 @@
+split,building,weather_loaded,K_ahu,V_zone,obs_len,n_cont,n_disc,formula_ok,floors,floor_plan_shape,zones_per_ahu,comfort_window,eco_window,morning_start_hour,evening_start_hour,time_zone,num_holidays
+train,building_train_1,atlanta_2,4,39,352,92,5,True,3,606x339,10/10/9/10,"(294.0, 297.0)","(289.0, 298.0)",6,19,US/Pacific,0
+train,building_train_2,atlanta_3,9,85,703,199,10,True,2,624x422,6/9/10/10/10/10/10/10/10,"(294.0, 297.0)","(289.0, 298.0)",6,19,US/Pacific,0
+train,building_train_4,atlanta_5,6,54,472,128,7,True,3,664x432,6/10/9/9/10/10,"(294.0, 297.0)","(289.0, 298.0)",6,19,US/Pacific,0
+train,building_train_5,atlanta_6,8,79,652,184,9,True,4,858x342,9/10/10/10/10/10/10/10,"(294.0, 297.0)","(289.0, 298.0)",6,19,US/Pacific,0
+val,building_train_7,atlanta_8,4,36,334,86,5,True,2,458x279,7/10/10/9,"(294.0, 297.0)","(289.0, 298.0)",6,19,US/Pacific,0
+test,building_train_8,atlanta_1,3,30,283,71,4,True,2,386x320,10/10/10,"(294.0, 297.0)","(289.0, 298.0)",6,19,US/Pacific,0
