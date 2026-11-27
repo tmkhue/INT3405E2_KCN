@@ -1,0 +1,16 @@
+# Split theo TÒA NHÀ (không chia ngẫu nhiên từng dòng).
+# Nguồn cặp building/weather: smart_buildings/training_set.yaml
+# Commit starter-kit: 1fb75606d12e016463fbc63de704967c5b2bf9d5
+# Trạng thái: ĐỀ XUẤT, chờ cả nhóm xác nhận. Sau khi xác nhận thì không đổi.
+
+train:
+  building_train_1: [atlanta_2, denver_7, fairbanks_1, phoenix_5, singapore_8]
+  building_train_2: [atlanta_3, denver_8, fairbanks_2, phoenix_6, singapore_1]
+  building_train_4: [atlanta_5, denver_2, fairbanks_4, phoenix_8, singapore_3]
+  building_train_5: [atlanta_6, denver_3, fairbanks_5, phoenix_1, singapore_4]
+
+val:
+  building_train_7: [atlanta_8, denver_5, fairbanks_7, phoenix_3, singapore_6]
+
+test:   # chỉ chạy MỘT lần sau khi chốt model, không dùng để tuning
+  building_train_8: [atlanta_1, denver_6, fairbanks_8, phoenix_4, singapore_7]
