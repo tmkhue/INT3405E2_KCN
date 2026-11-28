@@ -5,7 +5,8 @@ from pathlib import Path
 import pandas as pd
 
 
-RESULTS_DIR = Path("results")
+ROOT = Path(__file__).resolve().parents[1]
+RESULTS_DIR = ROOT / "results"
 OUTPUT_FILE = RESULTS_DIR / "experiment_results.csv"
 FULL_EPISODE_STEPS = 8640
 
